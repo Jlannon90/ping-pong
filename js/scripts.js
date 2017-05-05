@@ -1,13 +1,14 @@
 // back end logic
 
 
+var numberArray = [];
+
 var countToNumber = function(number) {
-  var numberArray = [];
+
   for (var index = 1; index <= number; index += 1) {
-      numberArray.push(index);
+    numberArray.push(index);
   }
   return numberArray;
-
 }
 
 
@@ -22,8 +23,6 @@ var replacedNumbers = function(number) {
     return number
   }
 }
-
-
 
 
 
