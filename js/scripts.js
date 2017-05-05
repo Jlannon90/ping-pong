@@ -1,5 +1,15 @@
 // back end logic
 
+var numberArray = [];
+
+var countToNumber = function(number) {
+  for (var index = 1; index <= number; index += 1) {
+      numberArray.push(index.toString());
+  }
+  return numberArray;
+}
+
+
 
 var replacedNumbers = function(number) {
   if ((number % 3 === 0) && (number % 5 !== 0) && (number % 15 !== 0)) {
@@ -11,7 +21,7 @@ var replacedNumbers = function(number) {
   } else {
     return number
   }
-};
+}
 
 
 
@@ -24,8 +34,11 @@ $(function() {
     event.preventDefault();
     var number = parseInt($("input#user-number").val());
     var result = replacedNumbers(number);
+    var test = countToNumber(number);
 
     $("#result").text(result);
+    alert(test);
+
 
   });
 });
