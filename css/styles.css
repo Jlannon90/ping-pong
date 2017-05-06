@@ -1,0 +1,23 @@
+body {
+  background: url(http://www.publicdomainpictures.net/pictures/150000/velka/tafeltennis.jpg);
+}
+
+.jumbotron {
+  background-color: white;
+  opacity: .9;
+}
+
+#ping-pong {
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  opacity: .9;
+}
+
+#result {
+  background-color: white;
+  margin-top: 25px;
+  opacity: .9;
+}
