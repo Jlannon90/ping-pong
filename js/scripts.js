@@ -4,7 +4,6 @@
 var pingPong = function(number) {
   var numberArray = [];
 
-// this is pushing the userinput into the blank numberArray
   for (var index = 1; index <= number; index += 1) {
     if ((index % 3 === 0) && (index % 5 != 0) && (index % 15 != 0)) {
       numberArray.push("ping");
