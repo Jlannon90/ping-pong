@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
@@ -13,21 +14,33 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Ping Pong</h1>        
+        <h1>Ping Pong</h1>
       </div>
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="number">Enter a number:</label>
-          <input id="user-number" type="text">
+      <div class="row">
+        <div class="col-md-4" id=move-text>
+          <form id="ping-pong">
+            <div class="form-group">
+              <label for="number">Enter a number:</label>
+              <input id="user-number" type="text">
+            </div>
+            <div class="move-button">
+              <button type="submit" class="btn">Submit</button>
+
+            </div>
+          </form>
         </div>
+        <div class="col-md-4">
+          <div class="kitty photo">
+            <img src="img/kitties.gif" alt="Kitties playing ping pong">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="result">
+            <ul>
 
-        <button type="submit" class="btn">Submit</button>
-      </form>
-
-      <div id="result">
-        <ul>
-
-        </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -1,23 +1,56 @@
 body {
   background: url(http://www.publicdomainpictures.net/pictures/150000/velka/tafeltennis.jpg);
+  font-family: 'Playfair Display', serif;
 }
 
 .jumbotron {
   background-color: white;
   opacity: .9;
+  border-style: outset;
+  border-color: #5334fe;
+  border-width: thick;
+  text-decoration: underline;
 }
 
 #ping-pong {
+  margin-top: 25px;
   background-color: white;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
   opacity: .9;
+  border-style: outset;
+  border-color: #ff0141;
+  border-width: thick;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+
+img {
+  margin-top: 25px;
+  border-style: outset;
+  border-color: #5334fe;
+  border-width: thick;
+  max-height: 148px;
+  max-width: auto;
 }
 
 #result {
   background-color: white;
   margin-top: 25px;
   opacity: .9;
+  border-style: outset;
+  border-color: #ff0141;
+  border-width: thick;
+}
+
+.btn {
+  border-style: outset;
+  border-color: #5334fe;
+  border-width: thick;
+  background-color: white;
 }
