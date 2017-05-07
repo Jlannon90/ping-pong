@@ -6,13 +6,13 @@ var pingPong = function(number) {
 
   for (var index = 1; index <= number; index += 1) {
     if ((index % 3 === 0) && (index % 5 != 0) && (index % 15 != 0)) {
-      numberArray.push("ping");
+      numberArray.push(" ping");
     } else if ((index % 5 === 0) && (index % 15 != 0) && (index % 3 != 0)){
-      numberArray.push("pong");
+      numberArray.push(" pong");
     } else if ((index % 15 === 0) && (index % 5 === 0) && (index % 3 === 0)){
-      numberArray.push("ping-pong");
+      numberArray.push(" ping-pong");
     } else
-      numberArray.push(index);
+      numberArray.push(" " + index);
   };
     return numberArray;
 }
@@ -26,8 +26,8 @@ $(function() {
     var number = parseInt($("input#user-number").val());
     var result = pingPong(number);
 
-    $("#result ul").text(result);
-
+    $("p").append(result);
+    $("#result").show();
 
   });
 });
