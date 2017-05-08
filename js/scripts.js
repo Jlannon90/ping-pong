@@ -26,7 +26,7 @@ $(function() {
     var number = parseInt($("input#user-number").val());
     var result = pingPong(number);
 
-    $("p").append(result);
+    $("p").text(result);
     $("#result").show();
 
   });

@@ -15,13 +15,13 @@ _{This application takes a number that the user enters, counts up to it, and rep
 
 ## Specifications
 
-* _Identify a number a user enters and save that number_
+* _Identify a number a user enters and save that number._
   _Example Input: 3 Example Output: 3_
-* _Count up to that number and save the results into an array_
+* _Count up to that number and save the results into an array._
   _Example Input: 3 Example Output: 1, 2, 3_
-* _Identify the numbers divisible by 3, 5 and 15 and change to strings "ping", "pong" and "ping=pong"_
+* _Identify the numbers divisible by 3, 5 and 15 and change to strings "ping", "pong" and "ping=pong"._
   _Example Input: 3 Example Output: 1, 2, ping_
-* _Push the results from each change into the array, then display the array to the user_
+* _Push the results from each change into the array, then display the array to the user._
   _Example Input: 5 Example Output: 1, 2, ping, 4, pong_
 
 ## Known Bugs
